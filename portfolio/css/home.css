@@ -1,5 +1,4 @@
-
-  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Saira:wght@700&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Saira:wght@700&display=swap');
 
 *{
      padding:0;
@@ -31,7 +30,8 @@ header{
       display: flex;
       justify-content: space-between;
       align-items: center;
-      padding: 20px 100px;
+      padding: 20px 20px;
+      
 
       
 
@@ -42,13 +42,14 @@ header{
         text-transform: uppercase;
         font-weight: 700;
         font-size: 1.8em;
+        margin-left: 100px;
 }
 
 .navbar a{
       color: #535da1;
       font-size: 1.1em;
       font-weight: 500;
-      padding-left: 30px;   
+      padding:0 40px;   
       
 }
 .navbar ul li{
@@ -61,9 +62,9 @@ header{
 .main-contant{
       width: 100%;
       min-height: 100vh;
-      display: flex;
+      
       align-items: center;
-      justify-content: space-between;
+      
       background-color:#424279dc;
       
       
@@ -81,8 +82,12 @@ header{
       min-width: 200px;
 }
 .content{
-          padding: 120px 300px;
-          margin-top: 40px;
+      
+      padding: 120px 300px;
+      margin-top: 0px;
+      
+
+          
 }
 
 .content p{
@@ -152,14 +157,7 @@ header{
 
 }
 
-.About-Me h2{
-        color:#14B789;
-        position: absolute;
-        left: 45%;
-       
-        
 
-}
 .About-Me .objective{
       margin: 100px 0;
       width: 400px;
@@ -229,7 +227,7 @@ text-align: center;
 }
 
 .info {
-text-align: center;
+   text-align: center;
 
 }
 
@@ -238,18 +236,21 @@ text-align: center;
 font-size: 1.2em;
 font-weight: 700;
 margin: 10px;
+
+
 }
 .info p{
        color: #535da1;
 }
-
 .projects {
-      background-color:#535da1;
+      
       margin: 100px 200px;
   }
   
-  .projects .content{
+  .projects .content3{
       margin-top: 30px;
+      background-color: #535da1;
+      width: 100%;
   }
   
   .project-card {
@@ -303,16 +304,21 @@ margin: 10px;
   
   .contact .icon{
       font-size: 4.5em;
+      color: #14B789;
   }
   
   .contact .info h3 {
-      color: #000;
+      color:#14B789;
+      
   }
   
   .contact .info p {
-      font-size: 1.5em;
+      font-size:1.5em;
+      color:#535da1;
+      
   }
   
+
 
 .footer {
       background-color:#f0f0f0;
@@ -322,6 +328,7 @@ margin: 10px;
       justify-content: space-between;
   }
   
+ 
   .footer-title {
       font-size: 1.3em;
       font-weight: 600;
@@ -335,3 +342,6 @@ margin: 10px;
       font-size: 1.3em;
       padding: 0 12px 0 0;
   }
+
+  
+  
